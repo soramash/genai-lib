@@ -7,4 +7,4 @@
 # Add more terms as needed: real names, internal project codenames,
 # internal hostnames, account aliases, etc.
 
-soramash
+soramash-test
