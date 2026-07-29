@@ -1,0 +1,3 @@
+# Local-only additions to the sensitive-terms blocklist. Never commit this —
+# see scripts/check-sensitive-info.sh for why it's kept out of the repo.
+scripts/sensitive-terms.local.txt

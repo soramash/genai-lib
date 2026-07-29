@@ -1,0 +1,11 @@
+# Copy this file to sensitive-terms.local.txt (gitignored, never committed)
+# and add terms too sensitive to list in the public sensitive-terms.txt —
+# e.g. internal codenames, other people's real names, internal hostnames.
+#
+# Same format as sensitive-terms.txt: one term per line, case-insensitive,
+# whole-word match. Lines starting with # and blank lines are ignored.
+#
+# Reminder: this file is only checked locally, NOT in CI (CI checks out a
+# clean tree and never sees gitignored files). Anything that must be
+# enforced for every contributor and every push belongs in the committed
+# sensitive-terms.txt instead.

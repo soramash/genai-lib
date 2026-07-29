@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Blocks commits containing sensitive terms/credentials.
+# See scripts/check-sensitive-info.sh. Enable this hooks directory with:
+#   git config core.hooksPath .githooks
+set -eu
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+exec "$REPO_ROOT/scripts/check-sensitive-info.sh" --staged
