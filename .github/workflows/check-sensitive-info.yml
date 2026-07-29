@@ -1,0 +1,13 @@
+name: Check sensitive info
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan for blocked terms and credential patterns
+        run: bash scripts/check-sensitive-info.sh --all

@@ -1,0 +1,10 @@
+# Sensitive terms for check-sensitive-info.sh
+#
+# One term per line. Matching is case-insensitive and whole-word
+# (so "mash" will not match "smashed", but will match "Mash" or "mash@soracom.jp").
+# Lines starting with # and blank lines are ignored.
+#
+# Add more terms as needed: real names, internal project codenames,
+# internal hostnames, account aliases, etc.
+
+soramash-test
