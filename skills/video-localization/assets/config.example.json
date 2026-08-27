@@ -1,0 +1,10 @@
+{
+  "whisper_model": "/absolute/path/to/ggml-large-v3-turbo-q5_0.bin",
+  "output_root": "localized",
+  "language": "ja",
+  "whisper_threads": 8,
+  "gemini_model": "gemini-3.1-flash-tts-preview",
+  "gemini_voice": "Kore",
+  "tts_max_speedup": 1.15,
+  "duration_tolerance_seconds": 0.15
+}
